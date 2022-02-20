@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+
+h4, h5 {
+    color: #535252;
+
+}
+
+p {
+    text-align: justify;
+}
+
+.card {
+    box-shadow:0px 3px 10px 3px rgb(167, 167, 167);
+    border-radius: 5px;
+    padding: 20px;
+    margin:20px 10px 10px 10px;
+}
+
+/* .card2 {
+    box-shadow: 1px 1px 3px 3px rgb(167, 167, 167);
+    border-radius: 10px;
+    padding: 10px;
+  } */
+
+.card3 {
+    box-shadow: 0 1px 4px 0 rgb(167, 167, 167);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0 0 10px;
+    width: fit-content;
+}
+  
+
+.card4 {
+    box-shadow: 0 1px 3px 0 rgb(167, 167, 167);
+    border-radius: 3px;
+    padding: 5px;
+    width: 100%;
+}
+
+img {
+    border-radius: 12px;
+    width: 240px;
+    height: 370px;
+}
+
+
+nav {
+  background-color: #5287a3;
+  padding: 20px;
+  position: sticky;
+  overflow: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li form {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+  }
+  
+nav li form input {
+    float: right;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;;
+}
+main {
+  padding: 20;
+  overflow: auto;
+}
+
+
+header {
+  display: inline;
+}
+
+

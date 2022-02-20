@@ -1,0 +1,80 @@
+.pembagi-head{
+    display: flex;
+    flex-direction:row;
+}
+* {
+    box-sizing: border-box;
+}
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(30, 106, 219, 0.541);
+    box-shadow: 0 5px 5px 0 rgb(77, 77, 77); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 25%;
+    padding: 20px;
+}
+.userA
+{
+    cursor:pointer;
+}
+.userA#user:hover
+{
+    box-shadow: 0 1px 5px 0 rgb(102, 238, 24);
+}
+.passA
+{
+    cursor:pointer;
+}
+.passA#pass:hover
+{
+    box-shadow: 0 5px 5px 0 rgb(250, 4, 4);
+}
+
+.log{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav_tabel{
+    display: table;
+    background-color: rgba(30, 106, 219, 0.541); 
+    font-family: 'Arial Rounded MT';
+    color: rgb(255, 255, 255);
+    box-shadow: 0 5px 5px 0 rgb(77, 77, 77);
+}
+
+.title {
+    font-family: 'Unispace';
+    font-size: 25px;
+    color:beige;
+    border: 0px;
+}
+header {
+    background-color: rgb(131, 131, 131);
+    text-align:left;
+    color: rgb(3, 8, 10);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding: 0px;
+    border: 0px
+}
+body, html{
+    margin: 0;
+    height: 100%;
+}
+.pengaturan_ajaxsidecontent{
+    display: flex;
+    flex-direction: row;
+
+}
+.Anav{
+    color : white;
+    text-decoration: none;
+}
